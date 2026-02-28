@@ -48,7 +48,7 @@ export default function AdminProjetos() {
                 </div>
 
                 <button
-                    onClick={() => router.push('/admin/novo-projeto')}
+                    onClick={() => router.push('/admin/novo-projeto/novo')}
                     className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-400 hover:to-blue-400 text-white font-medium rounded-xl px-5 py-2.5 transition-all shadow-lg shadow-purple-500/25"
                 >
                     <Plus className="w-5 h-5" /> Novo Projeto
